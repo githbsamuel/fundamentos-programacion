@@ -28,7 +28,7 @@ Algoritmo Problema2
                 resultado = 1
             Sino
                 Si velocidad >= 81 Entonces
-                    resultado == 2
+                    resultado = 2
                 FinSi
             FinSi
         FinSi

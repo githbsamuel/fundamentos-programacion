@@ -1,4 +1,4 @@
-Algoritmo sin_titulo
+Algoritmo VentasSep
 
 	Definir venta Como Caracter
 	Definir monto Como Real

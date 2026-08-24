@@ -41,7 +41,6 @@ Algoritmo Problema1
  
     total  = precio_final * cantidad_kilos
     
-     Salida de resultados
     Escribir ""
     Escribir "El total a recibir por la uva es: ", total
     Escribir "El precio final por kilo de uva es: ", precio_final
