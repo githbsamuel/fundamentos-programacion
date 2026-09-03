@@ -1,5 +1,3 @@
-
-
 """
          * Problema:
          * La sociación de vinicultores tiene como política fijar un precio inicial al
@@ -8,7 +6,7 @@
          * requiere determinar cuánto recibirá un productor por la uva que entrega en un
          * embarque, considerando lo siguiente: si es de tipo A, se le cargan 20¢ al
          * precio inicial cuando es de tamaño 1; y 30¢ si es de tamaño 2. Si es de tipo
-         * B, se rebajan 30¢ cuando es de tamaño 1, y 50¢ cuando es de tamaño 2
+         * B, se rebajan 30¢ cuando es de tamaño 1, y 50¢ cuando es de tamaño 2.
 
 """
 kilos = int(input("Ingrese la cantidad de kilos de uva:  "))
