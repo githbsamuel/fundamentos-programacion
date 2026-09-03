@@ -1,15 +1,11 @@
 # Fundamentos de programación
 
-## Licencitura en Ingeniria de software
+## Licenciatura en Ingeniería de Software
 
 ---
 
-## Primer parcial
+### Primer parcial
 
----
+### Segundo Parcial
 
-## Segundo Parcial
-
----
-
-## Tercer Parcial
+### Tercer Parcial
