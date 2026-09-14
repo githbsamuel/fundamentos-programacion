@@ -67,7 +67,6 @@ public class Sistema_cobro {
                 subtotalConDescuento, costo_envio, impuesto, total);
 
         sc.close();
-
     }
 
     // VALIDAR CANITIDAD Y PRECIO DEL PRODUCTO

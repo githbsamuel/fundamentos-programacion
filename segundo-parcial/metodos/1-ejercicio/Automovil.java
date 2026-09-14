@@ -49,7 +49,7 @@ public class Automovil {
 
     //
     public static boolean seguro(int edad_Conductor, int cantidad_Accidentes, double valor_Vehiculo) {
-        if ((edad_Conductor >= 18 && edad_Conductor <= 100) && cantidad_Accidentes > 0 && valor_Vehiculo > 0) {
+        if ((edad_Conductor >= 18 && edad_Conductor <= 100) && cantidad_Accidentes >= 0 && valor_Vehiculo > 0) {
             return true;
         } else {
             return false;
