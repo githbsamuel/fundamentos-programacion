@@ -8,11 +8,10 @@ public class Cine {
         double monto_des, monto_pagar;
         String dia, membresia, opcion;
 
-        precio_base = 50;
-        precio_dobl = 75;
-        monto_des = 0;
-
         do {
+            precio_base = 50;
+            precio_dobl = 75;
+            monto_des = 0;
 
             IO.print("\nIngrese el numero de personas: ");
             numer_person = sc.nextInt();
@@ -30,6 +29,9 @@ public class Cine {
                     break;
 
                 case "jueves":
+                    if (numer_person == 1) {
+                        monto_pagar = precio_base;
+                    }
                     if (numer_person % 2 == 0) {
                         parejas_dobles = numer_person / 2;
                         monto_pagar = parejas_dobles * precio_dobl;
@@ -49,6 +51,13 @@ public class Cine {
 
             monto_pagar = monto_pagar - monto_des;
 
+            IO.println();
+
+            IO.println("Numero de personas: " + numer_person);
+            IO.println("Dia de la semana: " + dia);
+            IO.println("Precio base: $" + precio_base);
+            IO.println("Monto de descuento: $" + monto_des);
+            IO.println("--------------");
             IO.println("Monto a pagar: $" + monto_pagar);
 
             IO.print("\nDesea realizar otra compra? (si/no): ");

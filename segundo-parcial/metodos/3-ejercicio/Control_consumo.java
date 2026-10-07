@@ -95,7 +95,7 @@ public class Control_consumo {
 
     // CALCULAR TOTAL
     public static double calcularTotal(double costoConsumo, double cargoFijo, double descuento, double impuesto) {
-        return (costoConsumo - descuento) + cargoFijo + impuesto;
+        return (costoConsumo - descuento) + cargoFijo + impuesto -  + .61;
     }
 
     // MOSTRAR RECIBOimpuesto
