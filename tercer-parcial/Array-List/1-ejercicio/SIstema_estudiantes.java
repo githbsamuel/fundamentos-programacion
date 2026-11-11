@@ -137,7 +137,7 @@ public class SIstema_estudiantes {
                     double suma = 0;
 
                     for (Double calificaciones : calificacion) {
-                         suma =+ calificaciones;       
+                         suma += calificaciones;       
                     }
                     promedio_general = suma / longitud;
                     System.out.println("\nEl promedio general del grupo es: "+promedio_general);

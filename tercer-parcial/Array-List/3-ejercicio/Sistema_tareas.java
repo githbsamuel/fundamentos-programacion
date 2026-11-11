@@ -55,14 +55,14 @@ public class Sistema_tareas {
                         identificador.add(0, id_tarea);
                         descripcion.add(0, desc);
                         prioridad.add(0, prio);
-                        estado.add(0, "pendiente");
+                        estado.add(0, "Pendiente");
                         System.out.println("tarea agregada al inicio");
                     } else {
                         
                         identificador.add(id_tarea);
                         descripcion.add(desc);
                         prioridad.add(prio);
-                        estado.add("pendiente");
+                        estado.add("Pendiente");
                         System.out.println("Tarea agregada al final");
                     }
                     break;
@@ -90,7 +90,7 @@ public class Sistema_tareas {
                             identificador.add(pos, id_nueva);
                             descripcion.add(pos, desc_nueva);
                             prioridad.add(pos, prio_nueva);
-                            estado.add(pos, "pendiente");
+                            estado.add(pos, "Pendiente");
                             System.out.println("Tarea insertada en la posicion " + pos);
                         }
                     } else {
